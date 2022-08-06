@@ -56,11 +56,14 @@
     line-height: 2.5;
 }
 
-.projects {
+#projects {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.games {
+#games {
     margin-top: 50px;
 }
 
@@ -70,6 +73,6 @@
     gap: 90px;
 }
 
-.games img{
+#games img{
     max-width: 400px;
 }

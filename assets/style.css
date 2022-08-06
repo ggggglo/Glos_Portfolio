@@ -5,6 +5,28 @@
     font-style: normal;
 }
 
+.header{
+    display: flex
+}
+
+.contact{
+    display: flex;
+    font-size: smaller;
+    margin-top: 12px;
+    margin-left: 150px;
+    gap: 50px;
+}
+
+.about{
+    display: flex;
+    margin-left: 100px;
+    gap: 50px;
+}
+
+.about-text {
+    display: block;
+}
 img {
     width: 400px;
+    margin-top: 10px;
 }

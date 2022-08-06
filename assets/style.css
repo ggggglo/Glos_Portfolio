@@ -38,7 +38,7 @@
     text-align: left;
 }
 
-img {
+.about img {
     width: 400px;
     margin-top: 10px;
 }
@@ -56,10 +56,20 @@ img {
     line-height: 2.5;
 }
 
-#projects {
+.projects {
     margin-top: 50px;
 }
 
-#games {
+.games {
     margin-top: 50px;
+}
+
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.games img{
+    max-width: 400px;
 }

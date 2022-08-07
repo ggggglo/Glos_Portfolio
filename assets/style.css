@@ -83,3 +83,33 @@
     margin-left: 250px;
 }
 
+#rebrand:hover::after{
+    content: url(./images/rebrand.png);
+    display: block;
+    margin-left: 250px;
+}
+
+#omina:hover::after{
+    content: url(./images/omina.png);
+    display: block;
+    margin-left: 250px;
+}
+
+#huella:hover:after{
+    content: url(./images/huella.png);
+    display: block;
+    margin-left: 250px;
+}
+
+#somabacu:hover:after{
+    content: url(./images/somabacu.png);
+    display: block;
+    margin-left: 250px;
+}
+
+#ecostaff:hover:after{
+    content: url(./images/ecostaff.png);
+    display: block;
+    margin-left: 250px;
+}
+

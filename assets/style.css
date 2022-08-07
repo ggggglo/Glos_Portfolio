@@ -70,7 +70,7 @@
 .reviews{
     display: flex;
     flex-wrap: wrap;
-    gap: 90px;
+    gap: 80px;
 }
 
 #games img{

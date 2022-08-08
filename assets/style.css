@@ -12,10 +12,19 @@
 
 .contact{
     display: flex;
+    flex-wrap: wrap;
     font-size: smaller;
     margin-top: 12px;
     margin-left: 150px;
     gap: 50px;
+}
+
+#bday:hover::after{
+    content: "like Chuck Norris!";
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
 }
 
 .about{
@@ -38,6 +47,14 @@
     text-align: left;
 }
 
+#glo:hover{
+    content: url(./images/glo-funny.jpg);
+}
+
+#kylo:hover{
+    content: url(./images/kylo-funny.jpg);
+}
+
 .about img {
     width: 400px;
     margin-top: 10px;
@@ -45,6 +62,7 @@
 
 .menu {
    text-align: center;
+   margin-top: 80px;
 }
 
 .exp {
@@ -113,17 +131,3 @@
     margin-left: 250px;
 }
 
-@media screen and (max-width: 992px) {
-    .projects {
-      width: 50%;
-      background-color: cadetblue;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .projects {
-      width: 100%;
-    }
-  }
-
-  

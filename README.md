@@ -11,6 +11,6 @@ This project has 2 objectives:
 You will see that there are few fun things around the website, make sure to hover around and see things change!
 
 # Links
-This is the link to the GitHub Repo:
+This is the link to the GitHub Repo: https://github.com/ggggglo/Glos_Portfolio
 
-This is the link to the deployed website: 
+This is the link to the deployed website: https://ggggglo.github.io/Glos_Portfolio/ 

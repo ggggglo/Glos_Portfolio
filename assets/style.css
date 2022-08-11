@@ -12,6 +12,7 @@
 .contact{
     display: flex;
     flex-wrap: wrap;
+    display: block;
     font-size: 10px;
     gap: 10px;
 }
@@ -38,11 +39,6 @@
 
 #textright{
     text-align: right;
-}
-
-#textleft{
-    text-align: left;
-    margin-left: 5px;
 }
 
 #glo:hover{

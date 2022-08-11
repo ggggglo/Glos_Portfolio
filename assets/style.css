@@ -54,7 +54,7 @@
 }
 
 .about img {
-    width: 150px;
+    width: 160px;
     margin-top: 10px;
 }
 
@@ -86,6 +86,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
+    margin-left: 20px;
 }
 
 #games img{
@@ -95,37 +96,37 @@
 #eva:hover::after{
     content: url(./images/Eva.png);
     display: block;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 #rebrand:hover::after{
     content: url(./images/rebrand.png);
     display: block;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 #omina:hover::after{
     content: url(./images/omina.png);
     display: block;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 #huella:hover:after{
     content: url(./images/huella.png);
     display: block;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 #somabacu:hover:after{
     content: url(./images/somabacu.png);
     display: block;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 #ecostaff:hover:after{
     content: url(./images/ecostaff.png);
     display: block;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 #kylo2 {

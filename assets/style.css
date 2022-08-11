@@ -53,6 +53,10 @@
     content: url(./images/kylo-funny.jpg);
 }
 
+#kylo2:hover{
+    content: url(./images/kylo-funny.jpg);
+}
+
 .about img {
     width: 182px;
 }
@@ -134,4 +138,54 @@
 
 #kylo2 {
     display: none;
+}
+
+.contact2{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+    .header{
+        margin-left: 80px;
+    }
+    
+    .contact{
+        display: inline;
+        margin-left: 180px;
+        font-size: 15px;
+    
+    }
+
+    #kylo{
+        display:none;
+    }
+
+    #kylo2{
+        display: block;
+        min-width: 400px;
+        margin-top: 30px;
+    }
+
+    #glo{
+        min-width: 400px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    .about-text{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .textleft{
+        margin-left: 0px;
+    }
+
+    .menu{
+        margin-left: -80px;
+    }
+    main{
+        font-size: 13px;
+        margin-left: 80px;
+    }
 }

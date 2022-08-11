@@ -12,8 +12,8 @@
 .contact{
     display: flex;
     flex-wrap: wrap;
-    font-size: 8px;
-    gap: 20px;
+    font-size: 10px;
+    gap: 10px;
 }
 
 #bday:hover::after{
@@ -42,6 +42,7 @@
 
 #textleft{
     text-align: left;
+    margin-left: 5px;
 }
 
 #glo:hover{
@@ -54,7 +55,10 @@
 
 .about img {
     width: 182px;
-    margin-top: 10px;
+}
+
+.about-text {
+    font-size: 12px;
 }
 
 .menu {

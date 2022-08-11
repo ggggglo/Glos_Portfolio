@@ -41,6 +41,10 @@
     text-align: right;
 }
 
+.textleft{
+    margin-left: 15px;
+}
+
 #glo:hover{
     content: url(./images/glo-funny.jpg);
 }

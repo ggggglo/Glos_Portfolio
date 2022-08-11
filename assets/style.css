@@ -1,3 +1,4 @@
+/* Attributes that will take all over the page */
 *{
     background-color: #f5e5ec;
     font-family: bc-sklonar, sans-serif;
@@ -17,6 +18,7 @@
     gap: 10px;
 }
 
+/* Funny message that shows when you hover over 03/10/94 */
 #bday:hover::after{
     content: "like Chuck Norris!";
     margin-top: 20px;
@@ -33,6 +35,7 @@
     gap: 50px;
 }
 
+/* From line 39 to line 49 it manages that text position of the about section */
 #textcenter{
     text-align: center;
 }
@@ -45,6 +48,7 @@
     margin-left: 15px;
 }
 
+/* From line 52 to line 62 it maganes the images that appear in the about section when you hover over them */
 #glo:hover{
     content: url(./images/glo-funny.jpg);
 }
@@ -96,10 +100,12 @@
     margin-left: 20px;
 }
 
+/* Size for gifs in video game reviews*/
 #games img{
     max-width: 400px;
 }
 
+/* Line 104 to 138 manages hover effects over website links to show pictures*/
 #eva:hover::after{
     content: url(./images/Eva.png);
     display: block;
@@ -136,14 +142,12 @@
     margin-left: 10px;
 }
 
+/* Hiding Kylo's picture that only is visible in bigger screens*/
 #kylo2 {
     display: none;
 }
 
-.contact2{
-    display: none;
-}
-
+/* Media query to make design responsive for bigger screens*/
 @media screen and (min-width: 992px){
     .header{
         margin-left: 80px;

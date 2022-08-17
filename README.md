@@ -14,3 +14,12 @@ You will see that there are few fun things around the website, make sure to hove
 This is the link to the GitHub Repo: https://github.com/ggggglo/Glos_Portfolio
 
 This is the link to the deployed website: https://ggggglo.github.io/Glos_Portfolio/ 
+
+# Images
+
+This is what the website looks like:
+![Site part 1](./assets/images/1.png)
+
+![Site part 2](./assets/images/2.png)
+
+![Site part 3](./assets/images/3.png)

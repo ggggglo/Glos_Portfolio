@@ -112,6 +112,25 @@
     margin-left: 10px;
 }
 
+#quiz:hover::after{
+    content: url(./images/quiz.png);
+    display: block;
+    margin-left: 10px;
+}
+
+#weather:hover::after{
+    content: url(./images/weather.png);
+    display: block;
+    margin-left: 10px;
+}
+
+#organizer:hover::after{
+    content: url(./images/organizer.png);
+    display: block;
+    margin-left: 10px;
+}
+
+
 #eva:hover::after{
     content: url(./images/Eva.png);
     display: block;

@@ -20,6 +20,6 @@ This is the link to the deployed website: https://ggggglo.github.io/Glos_Portfol
 This is what the website looks like:
 ![Site part 1](./assets/images/1.png)
 
-![Site part 2](./assets/images/2.png)
+![Site part 2 updated](./assets/images/2.png)
 
 ![Site part 3](./assets/images/3.png)

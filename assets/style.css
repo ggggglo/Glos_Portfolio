@@ -106,6 +106,12 @@
 }
 
 /* Line 104 to 138 manages hover effects over website links to show pictures*/
+#bored:hover::after{
+    content: url(./images/bored.png);
+    display: block;
+    margin-left: 10px;
+}
+
 #eva:hover::after{
     content: url(./images/Eva.png);
     display: block;

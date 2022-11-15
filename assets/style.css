@@ -167,6 +167,18 @@
     margin-left: 10px;
 }
 
+#trueque:hover:after{
+    content: url(./images/trueque.png);
+    display: block;
+    margin-left: 10px;
+}
+
+#techblog:hover:after{
+    content: url(./images/techblog.png);
+    display: block;
+    margin-left: 10px;
+}
+
 /* Hiding Kylo's picture that only is visible in bigger screens*/
 #kylo2 {
     display: none;
